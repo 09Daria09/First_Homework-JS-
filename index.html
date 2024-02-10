@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Выбор Задания</title>
+    <link rel="stylesheet" href="about.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+</head>
+<body>
+
+    <div class="modal-content">
+        <h2>Выберите задание для проверки:</h2>
+        <form id="assignmentForm">
+            <dev class="block">
+            <input type="radio" id="assignment1" name="assignment" value="Информация о пользователе">
+            <label for="assignment1">Информация о пользователе</label><br>
+    
+            <input type="radio" id="assignment2" name="assignment" value="Трамвайный билет">
+            <label for="assignment2">Трамвайный билет</label><br>
+    
+            <input type="radio" id="assignment3" name="assignment" value="Игра «Угадай число»">
+            <label for="assignment3">Игра «Угадай число»</label><br>
+    </dev>
+            <button type="button" onclick="submitChoice()">Отправить выбор</button>
+        </form>
+    </div>
+
+<script src="script.js"></script>
+</body>
+</html>
